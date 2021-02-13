@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Layout Desgin</title>
+	<style type="text/css">
+	*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+/*Header start*/
+header{
+	background-color:#95afc0;
+	text-align:center;
+	padding:30px;
+	font-size:35px;
+	color:white;
+}
+/*Header End*/
+
+/*Nav Start*/
+nav{
+	float:left;
+	width:30%;
+	height:300px;
+	background-color:#6ab04c;
+	padding:20px;
+}
+nav ul{
+	list-style-type:none;
+	padding:0;
+}
+nav ul a{
+	text-decoration:none;
+}
+
+/*Nav End*/
+/*article start*/
+article{
+	float:left;
+	padding:20px;
+	width:70%;
+	background-color:#f0932b;
+	height:300px;
+}
+/*article end*/
+/*after area start*/
+section{
+	content:'';
+	display:table;
+	clear:both;
+}
+/*after area end*/
+/*footer area*/
+footer{
+	background-color:#686de0;
+	padding:10px;
+	text-align:center;
+	color:white;
+}
+/*footer area*/
+
+/*res start*/
+@media(max-width: 600px;){
+	nav, article{
+	width:100%;
+	height:auto;
+	}
+}
+
+/*res end*/
+	</style>
+</head>
+<body>
+	<header>
+	<h2>Header</h2>
+	</header>
+	
+	<section>
+	<nav>
+	<ul>
+	<li><a href="#">Wikipedia</a></li>
+	<li><a href="#">Google</a></li>
+	<li><a href="#">Youtube</a></li>
+	</ul>
+	</nav>
+	
+	<article>
+	<h1>Google</h1>
+	<p>your document. You can use these galleries to insert tables, headers, footers, lists, cover pages, and other document building blocks.
+	When you create pictures, charts,
+	or diagrams, they also coordinate with your current document look.</p>
+	<p>change the looks available in the Quick Style gallery, use the Change Current Quick Style Set command.
+	Both the Themes gallery and the Quick Styles gallery provide 
+	reset commands so that you can always restore the look of your document to the original contained in your current template.</p>
+	</article>
+	</section>
+	
+	<footer>
+	<p>Footer</p>
+	</footer>
+	
+</body>
+</html>
